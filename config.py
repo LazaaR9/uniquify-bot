@@ -27,7 +27,7 @@ class Config(object):
     TG_USER_SESSION_NAME = os.environ.get("TG_USER_SESSION_NAME", "expedia")
 
     # tg user session string
-    TG_USER_SESSION_STRING = os.environ.get("TG_USER_SESSION_STRING", "AgGHlFYAFbwmLYD4K4cphSo1GQ-yFWwGLXj_wB8aI3-_pwEIZH4wHrZTve8kBuSipBTtIKRqkAVRpxW85QJDIhVbAfN65k_IqDZcI6p5mMweRj73ekj9BIO-bGznP_HbzojILBx4SSLnTcJoU4iGotAS2ETXV82uLGbix2Y4wnpxUAZOxkqMsCU061N5_TlCAMx413CbcxivZSOAaNdzQjAaRT7Z1vYe_W735IJj8YBTrPRoh2Y67sxbk5OIJMN3k75GfXaA7K5ALJmXYVGAkboLiLcAY2NgRByFi8DR2Q14-zJlDc8XDN6ZHXn2LpA4qSbKdDWulzO-i2_apaJjeEnhN2DycQAAAAHi758KAA")
+    TG_USER_SESSION_STRING = os.environ.get("TG_USER_SESSION_STRING", "")
 
 
 def LOGGER(name: str) -> logging.Logger:
